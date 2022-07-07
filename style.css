@@ -35,6 +35,13 @@ body.dark-pink {
     --primary-color-dark: #A61E4D;
 }
 
+body.oficial {
+    --bg-color: #0f0f0f;
+    --text-color: #FFFFFF;
+    --primary-color: linear-gradient(to right, #4263EB 0%, #1d39a7 25%, #1d39a7 75%, #4263EB 100%);
+    --primary-color-dark: linear-gradient(to right, #1d39a7 0%, #4263EB 25%, #4263EB 75%, #1d39a7 100%);
+}
+
 body {
     background: var(--bg-color);
     color: var(--text-color);
@@ -56,7 +63,7 @@ img.avatar {
     width: 100px;
     height: 100px;
     padding: 3.7px;
-    border: var(--primary-color) solid 4px;
+    border: #4263EB solid 4px;
 }
 
 .username {
